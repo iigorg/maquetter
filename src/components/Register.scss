@@ -1,0 +1,66 @@
+@import "../index.scss";
+ #sign{
+     margin: 155px 0 139px;
+     p {
+         margin-top: 2px;
+    }
+     h2{
+         width: 100%;
+    }
+}
+ form{
+     margin: 28px 0 40px !important;
+}
+ .register__input{
+     width: 290px;
+}
+ .selected-menu{
+     width: 450px;
+     height: 56px;
+}
+ .register__item{
+     display: flex;
+     margin: 20px 0;
+}
+ .register__file{
+     width: 450px;
+     margin: 0 !important;
+     position:relative;
+}
+ .selectMenu{
+     margin-top: 32px;
+}
+ #file{
+     opacity: 0;
+     width: 126px;
+     height: 56px;
+     position: absolute;
+     cursor: pointer;
+}
+ .upload{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     border-radius: 0 5px 5px 0;
+     width: 130px;
+     height: 56px;
+     border: 2px solid $primaryColor;
+     color: $primaryColor;
+     font-size: 20px;
+     font-weight: bold;
+     right: 0;
+     z-index: 10;
+     cursor:pointer;
+     -webkit-transition: all 0.3s linear;
+     transition: all 0.3s linear;
+     &:hover{
+         background: #FEE6D2;
+    }
+}
+ .has-error{
+     display: block;
+     margin-left: 14px !important;
+     color: red !important;
+}
+ 

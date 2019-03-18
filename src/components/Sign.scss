@@ -1,0 +1,37 @@
+.nav-sign{
+     align-items: center;
+     margin-left: auto;
+     display: flex;
+}
+ .logoUser{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     margin: 0 13px;
+}
+ .nav-user{
+     display: flex;
+     align-items: center;
+}
+ .nav-user__name{
+     display: block;
+     text-align: right;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+}
+ .nav-user__mail{
+     display: block;
+     color:#CAC9C9;
+     font-size: 12px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+}
+ .nav-sign svg {
+     transition: all 0.5s linear;
+     cursor: pointer;
+     &:hover path{
+         fill: #939AC9;
+    }    
+}
+ 

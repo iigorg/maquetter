@@ -1,0 +1,72 @@
+@import "../index.scss";
+ .primary {
+     width: 290px;
+     text-transform: capitalize !important;
+     background: #ef6c00;
+     border: 2px solid #ef6c00;
+     border-radius: 4px !important;
+     padding: 5px 0;
+     font-size: 18px !important;
+     color: $mainWhite;
+     cursor: pointer;
+     -webkit-transition: all 0.3s linear;
+     transition: all 0.3s linear;
+     &:hover{
+         color: $mainWhite;
+         background: #FC831F;
+         border-color: #FC831F;
+    }
+     &:focus{
+         outline: none;
+    }
+}
+ .text{
+     color:$primaryColor;
+     border: none;
+     cursor: pointer;
+     background: transparent;
+     -webkit-transition: all 0.3s linear;
+     transition: all 0.3s linear;
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: capitalize;
+     padding-top: 2px;
+     &:hover{
+         color: #FC831F;
+    }
+     &:focus{
+         outline: none;
+    }
+}
+ .secondary{
+     width: 290px;
+     text-transform: capitalize !important;
+     background: $mainWhite;
+     border: 2px solid $primaryColor;
+     border-radius: 4px !important;
+     padding: 4px 0;
+     font-size: 19px !important;
+     font-weight: bold;
+     color: $primaryColor;
+     cursor: pointer;
+     -webkit-transition: all 0.3s linear;
+     transition: all 0.3s linear;
+     &:hover{
+         background: #FEE6D2;
+    }
+     &:focus{
+         outline: none;
+    }
+}
+ .btnDisable{
+     width: 290px;
+     border: none;
+     background: #D7D7D7;
+     color: #8D8C8C;
+     font-size: 19px !important;
+     border-radius: 4px !important;
+     font-weight: bold;
+     padding: 5px 0;
+     -webkit-transition: all 0.3s linear;
+     transition: all 0.3s linear;
+}

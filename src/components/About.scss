@@ -1,0 +1,19 @@
+@import "../index.scss";
+ #about {
+     padding-top: 140px;
+     img{
+         padding-top: 18px;
+    }
+}
+ .about__info{
+     padding-top: 39px;
+     h3{
+         margin-bottom: 0;
+    }
+}
+ .about-title{
+     width: 100%;
+     line-height: 1;
+     text-align: center!important;
+     font-size: 41px !important;
+}

@@ -1,0 +1,21 @@
+@import "../index.scss";
+ .header {
+     padding-bottom: 158px;
+     background: url(../imgs/bg-1.jpg) no-repeat center top/ cover;
+     background-size: 150%;
+     background-position: center;
+     h1 {
+         padding-top: 197px;
+         color: $mainWhite;
+    }
+     p {
+         color: $mainWhite;
+         padding-top: 10px;
+         letter-spacing: 0.5px;
+         line-height: 1.4;
+         font-size: 19px;
+    }
+}
+ .header-button{
+     padding-top:23px;
+}

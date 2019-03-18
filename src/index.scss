@@ -1,0 +1,274 @@
+/*-------------General styles---------------*/
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ $primaryColor:#ef6c00;
+ $secondaryColor:#283593;
+ $mainWhite:#fff;
+ body{
+     background: $mainWhite;
+     width: 100%;
+     max-width: 2560px;
+     min-width: 320px;
+}
+ .text-center{
+     text-align: center;
+}
+ ul{
+     margin: 0 !important;
+}
+ .browserupgrade{
+     margin: 0.2em 0;
+     background: #ccc;
+     color: #000;
+     padding: 0.2em 0;
+}
+/*---------------Typography --------------*/
+/*Paragraph*/
+ .p1{
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+}
+ .p2{
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+}
+ .p3{
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+}
+/*Headers for different devices*/
+/* Device = Mobiles (max-width: 576px) */
+ @media (min-width: 320px) and (max-width: 576px){
+     h1{
+         font-family: 'Overpass', sans-serif;
+         font-size: 30px !important;
+    }
+     h2{
+         font-family: 'Overpass', sans-serif;
+         font-size: 26px !important;
+    }
+     h3{
+         font-family: 'Overpass', sans-serif;
+         font-size: 22px !important;
+    }
+     h4{
+         font-family: 'Overpass', sans-serif;
+         font-size: 22px !important;
+    }
+     h5{
+         font-family: 'Source Sans Pro', sans-serif;
+         font-size: 16 !important;
+         font-weight: 400;
+    }
+     .header {
+         padding-bottom: 70px;
+         background-size: cover;
+         h1 {
+             padding-top: 110px;
+        }
+    }
+     .selected-menu {
+         width: 290px;
+    }
+     .register__file {
+         width: 290px;
+    }
+     .register__input {
+         width: 290px;
+    }
+     .user__info {
+         margin-bottom: 40px;
+    }
+     #sign {
+         margin: 70px 0 70px;
+    }
+     .selectMenu {
+         margin-top: 15px;
+    }
+     #about {
+         padding-top: 70px;
+    }
+     .about-title{
+         font-size: 26px !important;
+    }
+     #relationships {
+         padding: 70px 0 70px;
+    }
+     #requirements {
+         padding: 70px 0 70px;
+    }
+     #requirements img {
+         padding-left: 0px;
+    }
+     #users {
+         padding: 70px 0 0;
+    }
+     form {
+         margin: 0 !important;
+    }
+     .footer-links li {
+         padding: 2px 0 !important;
+    }
+     .footer-links a:last-child {
+         padding-right: 30px !important;
+         padding-bottom: 10px !important;
+    }
+     .upload {
+         width: 56px;
+         height: 56px;
+    }
+     #file {
+         width: 56px;
+    }
+}
+/* Device = Low Resolution Tablets, Tablets*/
+ @media (min-width: 576px) and (max-width: 767px) {
+     h1{
+         font-family: 'Overpass', sans-serif;
+         font-size: 42px !important;
+    }
+     h2{
+         font-family: 'Overpass', sans-serif;
+         font-size: 42px !important;
+    }
+     h3{
+         font-family: 'Overpass', sans-serif;
+         font-size: 26px !important;
+    }
+     h5{
+         font-family: 'Source Sans Pro', sans-serif;
+         font-size: 18 !important;
+         font-weight: 400;
+    }
+     .footer-info__other {
+         padding-left: 21px !important;
+    }
+     .header {
+         padding-bottom: 30px;
+         background-size: cover;
+         h1 {
+             padding-top: 70px;
+        }
+    }
+     #sign p {
+         width: 360px;
+    }
+     .selectMenu {
+         margin-top: 15px;
+    }
+     .selected-menu {
+         width: 400px;
+    }
+     .register__file {
+         width: 400px;
+    }
+     .register__input {
+         width: 400px;
+    }
+     .footer-links li {
+         padding: 2px 0 !important;
+    }
+     .footer-links a:last-child {
+         padding-right: 30px !important;
+         padding-bottom: 10px !important;
+    }
+}
+ @media (min-width: 768px) and (max-width: 992px) {
+     .selected-menu {
+         width: 330px;
+    }
+     .register__file {
+         width: 330px;
+    }
+     .register__input {
+         width: 100%;
+    }
+     #sign p {
+         width: 360px;
+    }
+     .footer-info__other {
+         padding-left: 6px !important;
+    }
+     .footer-info__about span {
+         font-size: 16px;
+    }
+     #relationships img {
+         padding-top: 0;
+         padding-bottom: 0;
+         padding-right: 35px;
+    }
+     .relation{
+         padding-top: 50px;
+    }
+}
+/* Device = Laptops, Desktops */
+ @media (min-width: 992px) {
+     h1{
+         font-family: 'Overpass', sans-serif;
+         font-size: 50px !important;
+    }
+     h2{
+         font-family: 'Overpass', sans-serif;
+         font-size: 42px !important;
+    }
+     h3{
+         font-family: 'Overpass', sans-serif;
+         font-size: 26px !important;
+    }
+     h5{
+         font-family: 'Source Sans Pro', sans-serif;
+         font-size: 18 !important;
+         font-weight: 400;
+    }
+     #sign p {
+         width: 360px;
+    }
+     .footer-info__about span {
+         font-size: 18px !important;
+    }
+     .footer-info__other {
+         padding-left: 61px !important;
+    }
+     .selected-menu {
+         width: 450px;
+    }
+     .register__file {
+         width: 450px;
+    }
+     #relationships h2 {
+         width: 540px;
+         margin: 0 auto;
+    }
+}
+ @media (min-width: 1200px) {
+     .footer-info__other {
+         padding-left: 90px !important;
+    }
+     .register__file {
+         width: 480px;
+    }
+     .selected-menu {
+         width: 480px;
+    }
+     #relationships h2 {
+         width: 100%;
+    }
+     #sign p {
+         width: 100%;
+    }
+     .selected-menu {
+         width: 550px;
+    }
+     .register__file {
+         width: 550px;
+    }
+     .register__input {
+         width: 360px;
+    }
+}

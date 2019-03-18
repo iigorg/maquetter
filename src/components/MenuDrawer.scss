@@ -1,0 +1,41 @@
+@import "../index.scss";
+ .drawer-logo{
+     width: 66px;
+     height: 66px;
+     border-radius: 50%;
+}
+ .drawer-sign{
+     padding-left: 25px;
+}
+ .drawer__name {
+     display: block;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+}
+ .drawer__mail {
+     color: #CAC9C9;
+     font-size: 14px;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+ .drawer-links {
+     list-style-type: none;
+     li{
+         padding: 6px 0;
+    }
+}
+ .drawer-link {
+     color: #333;
+     text-decoration: none !important;
+     transition: all 0.5s linear;
+     padding: 15px 25px;
+     font-family: 'Overpass', sans-serif;
+     font-size: 15px;
+     cursor:pointer;
+     &:hover {
+         color: $primaryColor;
+    }
+     &:focus {
+         color: $primaryColor;
+    }
+}

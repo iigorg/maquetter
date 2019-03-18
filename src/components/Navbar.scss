@@ -1,0 +1,42 @@
+@import "../index.scss";
+ .navbar {
+     width: 100%;
+     height: 64px;
+     background: $mainWhite;
+}
+ .logo {
+     margin-right: 52px;
+}
+ .nav-links {
+     list-style-type: none;
+     display: flex;
+}
+ .nav-link {
+     color: #333;
+     text-decoration: none;
+     transition: all 0.5s linear;
+     padding: 5px 14px 0 !important;
+     font-family: 'Overpass', sans-serif;
+     font-size: 15px;
+     &:hover {
+         color: $primaryColor;
+    }
+}
+ .fixed-top{
+     background: #fff;
+}
+ .navbarSmall{
+     display: flex;
+     height: 51px;
+     background: #fff;
+     justify-content: space-between;
+     align-items: center;
+}
+ .navbarSmall svg {
+     transition: all 0.5s linear;
+     cursor: pointer;
+     &:hover path{
+         fill: #939AC9;
+    }    
+}
+ 
